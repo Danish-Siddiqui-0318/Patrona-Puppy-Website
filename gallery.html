@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/headers.css">
+    <link rel="stylesheet" href="css/features.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <style>
+        .gallery {
+            padding: 80px 0;
+        }
+
+        img {
+            max-width: 100%;
+            aspect-ratio: 4/3;
+        }
+
+        .gallery img {
+            /* background-color: #ffffff; */
+            padding: 15px;
+            width: 100%;
+            /* box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); */
+            cursor: pointer;
+        }
+
+        #gallery-modal .modal-img {
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid bg-dark ">
+        <div class="row" style="background-color: black;">
+            <div class="col-md-12">
+                <header style="background-color:black ;">
+                    <!-- navbar start -->
+                    <nav
+                        class="navbar d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 fixed-top ">
+                        <div class="col-md-3 mb-2 mb-md-0">
+                            <a href="index.html" class="d-inline-flex link-body-emphasis text-decoration-none">
+                                <h1 class="text-light m-1 logo text-center"
+                                    style="font-family: 'Times New Roman', Times, serif;">
+                                    PATRONA
+                                </h1>
+                            </a>
+                        </div>
+
+                        <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+                            <li><a href="index.html" class="nav-link px-4 as">Home</a></li>
+                            <li><a href="index.html" class="nav-link px-4 as">More About Us</a></li>
+                            <li><a href="Encyclopedia.html" class="nav-link px-4 as">Dogs Encyclopedia</a></li>
+                            <li><a href="#" class="nav-link px-4 as actives">Dogs Gallery</a></li>
+                            <li><a href="health.html" class="nav-link px-4 as">Dogs Health</a></li>
+                            <li><a href="faqs.html" class="nav-link px-4 as">FAQs</a></li>
+                        </ul>
+                        <div class="col-md-3 text-end">
+                            <!--I left this div in case for login or signin button  -->
+                        </div>
+                    </nav>
+                    <!-- navbar end -->
+                    <!-- img starts -->
+                    <img src="images/beautiful-girl-her-dog-together-with-love-charming-blonde-woman-with-her-pet-enjoying-sunny-autumn-day.jpg"
+                        class="d-block w-100" alt="..."style="filter: brightness(60%);">
+                    <div class="carousel-caption  top-0 mt-5  d-none d-md-block ">
+                        <h1 class="mt-5 text-uppercase " style="font-family: 'Times New Roman', Times, serif;">
+                            Welcome To Our DOG GALLERY</h1>
+                        <h1 class=" fw-bolder text-capitalize mt-5 ">
+                            "Browse, Smile, Repeat – Our Dog Gallery Awaits Your Visit."
+                        </h1>
+                        <h1 class=" fw-bolder text-capitalize mt-5 shadow-lg ">"Scroll More To visit Our Gallery"
+                        </h1>
+                    </div>
+                    <!-- img ends -->
+            </div>
+        </div>
+        <div class="row text-bg-dark border-bottom border-top">
+            <div class="col-md-12 text-center text-capitalize fs-3">
+                <p>Click On home to get on Home Page</p>
+            </div>
+            <div class="col-md-5"></div>
+            <div class="col-md-4">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb text-center fs-3">
+                        <li class="breadcrumb-item"><a href="index.html" class="text-light as">Home</a></li>
+                        <li class="breadcrumb-item text-light as" aria-current="page" style="text-decoration: none;">Dog Gallery</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+        <section class="gallery min-vh-100">
+            <div class="container-fluid">
+                <div class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3">
+                    <div class="col">
+                        <img src="galleryimg/1.jpg" alt="gallery" class="gallery-item img-fluid custum-img">
+                    </div>
+                    <div class="col">
+                        <img src="galleryimg/2.jpg" alt="gallery" class="gallery-item custum-img">
+                    </div>
+                    <div class="col">
+                        <img src="galleryimg/3.jpg" alt="gallery" class="gallery-item custum-img">
+                    </div>
+                    <div class="col">
+                        <img src="galleryimg/4.jpg" alt="gallery" class="gallery-item custum-img">
+                    </div>
+                    <div class="col">
+                        <img src="galleryimg/5.jpg" alt="gallery" class="gallery-item custum-img">
+                    </div>
+                    <div class="col">
+                        <img src="galleryimg/6.jpg" alt="gallery" class="gallery-item custum-img">
+                    </div>
+                    <div class="col">
+                        <img src="galleryimg/7.jpg" alt="gallery" class="gallery-item custum-img">
+                    </div>
+                    <div class="col">
+                        <img src="galleryimg/8.jpg" alt="gallery" class="gallery-item custum-img">
+                    </div>
+                    <div class="col">
+                        <img src="galleryimg/9.jpg" alt="gallery" class="gallery-item custum-img">
+                    </div>
+                    <div class="col">
+                        <img src="galleryimg/10.jpg" alt="gallery" class="gallery-item custum-img">
+                    </div>
+                    <div class="col">
+                        <img src="galleryimg/11.jpg" alt="gallery" class="gallery-item custum-img">
+                    </div>
+                    <div class="col">
+                        <img src="galleryimg/12.jpg" alt="gallery" class="gallery-item custum-img">
+                    </div>
+                    <div class="col">
+                        <img src="galleryimg/13.jpg" alt="gallery" class="gallery-item custum-img">
+                    </div>
+                    <div class="col">
+                        <img src="galleryimg/14.jpeg" alt="gallery" class="gallery-item custum-img">
+                    </div>
+                    <div class="col">
+                        <img src="galleryimg/15.jpeg" alt="gallery" class="gallery-item custum-img">
+                    </div>
+                    <div class="col">
+                        <img src="galleryimg/16.jpeg" alt="gallery" class="gallery-item custum-img">
+                    </div>
+                    <div class="col">
+                        <img src="galleryimg/17.jpeg" alt="gallery" class="gallery-item custum-img">
+                    </div>
+                    <div class="col">
+                        <img src="galleryimg/18.jpg" alt="gallery" class="gallery-item custum-img">
+                    </div>
+                    <div class="col">
+                        <img src="galleryimg/19.jpeg" alt="gallery" class="gallery-item custum-img">
+                    </div>
+                    <div class="col">
+                        <img src="galleryimg/20.jpg" alt="gallery" class="gallery-item custum-img">
+                    </div>
+                    <div class="col">
+                        <img src="galleryimg/21.jpg" alt="gallery" class="gallery-item custum-img">
+                    </div>
+                    <div class="col">
+                        <img src="galleryimg/22.jpg" alt="gallery" class="gallery-item custum-img">
+                    </div>
+                    <div class="col">
+                        <img src="galleryimg/23.jpg" alt="gallery" class="gallery-item custum-img">
+                    </div>
+                    <div class="col">
+                        <img src="galleryimg/24.jpg" alt="gallery" class="gallery-item custum-img">
+                    </div>
+                    <div class="col">
+                        <img src="galleryimg/25.jpg" alt="gallery" class="gallery-item custum-img">
+                    </div>
+                    <div class="col">
+                        <img src="galleryimg/26.jpg" alt="gallery" class="gallery-item custum-img">
+                    </div>
+                    <div class="col">
+                        <img src="galleryimg/27.jpg" alt="gallery" class="gallery-item custum-img">
+                    </div>
+                    <div class="col">
+                        <img src="galleryimg/29.jpg" alt="gallery" class="gallery-item custum-img ">
+                    </div>
+                    <div class="col">
+                        <img src="galleryimg/28.jpg" alt="gallery" class="gallery-item custum-img ">
+                    </div>
+                    <div class="col">
+                        <img src="galleryimg/30.jpg" alt="gallery" class="gallery-item custum-img ">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="modal fade bg-dark" id="gallery-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <!-- <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1> -->
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="galleryimg/1.jpg" alt="" class="modal-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row border-top ">
+            <footer class="bg-dark mt-4 py-4 text-capitalize">
+                <div class="container-fluid  text-light text-center">
+                    <p class="display-5 mb-3" style="font-family: 'Times New Roman', Times, serif;">PATRONA</p>
+                    <small class="text-white-50 text-capitalize ">&copy; Copyright by PATRONA. All right
+                        Reserved.</small>
+                </div>
+            </footer>
+        </div>
+    </div>
+</body>
+<script>
+    document.addEventListener("click", function (e) {
+        if (e.target.classList.contains("gallery-item")) {
+            const src = e.target.getAttribute("src");
+            document.querySelector(".modal-img").src = src;
+            const MyModal = new bootstrap.Modal(document.getElementById('gallery-modal'));
+            MyModal.show()
+        }
+    })
+</script>
+<script src="js/script.js"></script>
+</html>
